@@ -20,7 +20,7 @@ const Todo = () => {
 
 const deleteItem = (id) => {
     const updatedItems = items.filter((elemnet, ind) => {
-        return ind != id;
+        return ind !== id;
     });
 
     setItems(updatedItems);
