@@ -1,3 +1,8 @@
+#What is this project
+
+it is a react todo web app with localization in english and urdu.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
