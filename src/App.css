@@ -1,6 +1,168 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items:first baseline;
+  width: 100%;
 }
+
+.selectLang{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: steelblue;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.selectLang label {
+  margin: 15px 0;
+}
+
+.selectLang select {
+  outline: 0;
+  padding: 6px 16px;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+body{
+  font-family: 'Mulish', sans-serif;
+    background-color: #61dafb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.main-div{
+  background-color: steelblue;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 80%;
+}
+
+.child-div h1 {
+  font-family: inherit;
+  color: #fff;
+  padding-bottom: 15px;
+  text-shadow: 3px 4px 7px rgba(81,67,21,0.8);
+  font-size: 16px;
+}
+
+.addItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 6px;
+  margin-bottom: 40px
+
+}
+
+.addItems input{
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.addItems input:focus{
+  outline: 0;
+}
+
+.addItems button{
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.addItem span {
+  transition: all 0.4s ease;  
+
+}
+.addItem span:hover {
+  color: gray;  
+  
+}
+
+.showItems{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s linear;
+
+}
+
+.eachItem{
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 10px;
+  border-radius: 5px;
+  align-items: center;
+  background-color: whitesmoke;
+  width: 70%;
+  margin: 14px 0;
+}
+
+.eachItem button span{
+  transition: all 0.4s ease;  
+}
+
+.eachItem button span:hover{
+  color: gray;  
+}
+
+.eachItem button{
+  padding: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  color: lightcoral;
+  cursor: pointer;
+
+  /* margin: 20px; */
+}
+
+.eachItem h3{
+  margin: 0;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: light;
+}
+
+.btn{
+  padding: 14px 24px;
+  border: none;
+  background-color: rgb(228, 75, 75);
+  border-radius: 6px;
+  margin-top: 20px ;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.btn:hover{
+  border: 1px solid rgb(228, 75, 75);
+  background-color: #fff;
+  color: red;
+}
+.btn:active {
+  transform: scale(0.98);
+}
+
+/* img{
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;
@@ -36,3 +198,9 @@
     transform: rotate(360deg);
   }
 }
+
+
+.main-div {
+
+}
+
